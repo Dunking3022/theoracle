@@ -2,4 +2,4 @@
 
 A ChatGPT based React Chatbot built using ChatGPT... 
 
-![mindsEye](https://user-images.githubusercontent.com/66022524/232196757-91985e10-102b-455a-ab7d-8489aec0b3ec.jpg)
+![profile-image-new](https://user-images.githubusercontent.com/66022524/232252686-705cca90-fe18-40c2-9110-a1ec17efa9b7.png)
