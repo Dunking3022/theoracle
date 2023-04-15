@@ -1,0 +1,70 @@
+.glowing-text {
+    position: relative;
+    animation: glowing 2s ease-in-out infinite;
+  }
+  
+  .glowing-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0.2) 50%,
+      transparent 50%,
+      transparent 100%
+    );
+    z-index: -1;
+    animation: glowing 2s ease-in-out infinite;
+  }
+  
+  @keyframes glowing {
+    0% {
+      text-shadow: 0 0 60px #20e579;
+    }
+    50% {
+      text-shadow: 0 0 35px #20e579;
+    }
+    100% {
+      text-shadow: 0 0 60px #20e579 ;
+    }
+  }
+
+  .glowing-image {
+    filter: brightness(1.2) blur(0px);
+    transition: all 0.5s ease-in-out;
+    border-radius: 42px;
+    animation: glowingimg 1s ease-in-out infinite;
+  }
+  
+
+  @keyframes glowingimg {
+    
+    0% {box-shadow: 0 0 10px #20e579;
+      border-radius: 42px;
+      filter: brightness(2.5) blur(1.8px);
+        
+      }
+      75% {
+        box-shadow: 0 0 5px #20e579;
+        border-radius: 50px;
+          filter: brightness(1.5) blur(0px);
+      }
+      100% {
+        box-shadow: 0 0 10px #20e579;
+        border-radius: 42px;
+        filter: brightness(2.5) blur(1.8px);
+      }
+  }
+
+  
+  
+  
+  
+  
+  
+  
