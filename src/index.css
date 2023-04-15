@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Retro Font1'; /* Choose a name for your font */
+  src: url('./fonts/Orbitron-VariableFont_wght.ttf'); /* Replace the file name with your own */
+}
+
+@font-face {
+  font-family: 'Retro Font2'; /* Choose a name for your font */
+  src: url('./fonts/VT323-Regular.ttf'); /* Replace the file name with your own */
+}
+
+@font-face {
+  font-family: 'Retro Font3'; /* Choose a name for your font */
+  src: url('./fonts/chineserocks.ttf'); /* Replace the file name with your own */
+}
+
+@font-face {
+  font-family: 'Retro Font4'; /* Choose a name for your font */
+  src: url('./fonts/GypsyCurse.ttf'); /* Replace the file name with your own */
+}
+
+@font-face {
+  font-family: 'Retro Font5'; /* Choose a name for your font */
+  src: url('./fonts/Hellion.ttf'); /* Replace the file name with your own */
+}
+
+@font-face {
+  font-family: 'Retro Font6'; /* Choose a name for your font */
+  src: url('./fonts/RiseInsidE-Regular.otf'); /* Replace the file name with your own */
+}
+
